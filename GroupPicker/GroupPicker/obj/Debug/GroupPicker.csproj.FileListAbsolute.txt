@@ -1,0 +1,6 @@
+C:\Users\Technologist\Documents\GitHub\Program6ClassSolutions\GroupPicker\GroupPicker\bin\Debug\GroupPicker.exe.config
+C:\Users\Technologist\Documents\GitHub\Program6ClassSolutions\GroupPicker\GroupPicker\bin\Debug\GroupPicker.exe
+C:\Users\Technologist\Documents\GitHub\Program6ClassSolutions\GroupPicker\GroupPicker\bin\Debug\GroupPicker.pdb
+C:\Users\Technologist\Documents\GitHub\Program6ClassSolutions\GroupPicker\GroupPicker\obj\Debug\GroupPicker.csprojResolveAssemblyReference.cache
+C:\Users\Technologist\Documents\GitHub\Program6ClassSolutions\GroupPicker\GroupPicker\obj\Debug\GroupPicker.exe
+C:\Users\Technologist\Documents\GitHub\Program6ClassSolutions\GroupPicker\GroupPicker\obj\Debug\GroupPicker.pdb

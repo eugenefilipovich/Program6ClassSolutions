@@ -1,0 +1,6 @@
+C:\Users\Technologist\Documents\GitHub\Program6ClassSolutions\FlippingCoins\FlippingCoins\bin\Debug\FlippingCoins.exe.config
+C:\Users\Technologist\Documents\GitHub\Program6ClassSolutions\FlippingCoins\FlippingCoins\bin\Debug\FlippingCoins.exe
+C:\Users\Technologist\Documents\GitHub\Program6ClassSolutions\FlippingCoins\FlippingCoins\bin\Debug\FlippingCoins.pdb
+C:\Users\Technologist\Documents\GitHub\Program6ClassSolutions\FlippingCoins\FlippingCoins\obj\Debug\FlippingCoins.csprojResolveAssemblyReference.cache
+C:\Users\Technologist\Documents\GitHub\Program6ClassSolutions\FlippingCoins\FlippingCoins\obj\Debug\FlippingCoins.exe
+C:\Users\Technologist\Documents\GitHub\Program6ClassSolutions\FlippingCoins\FlippingCoins\obj\Debug\FlippingCoins.pdb

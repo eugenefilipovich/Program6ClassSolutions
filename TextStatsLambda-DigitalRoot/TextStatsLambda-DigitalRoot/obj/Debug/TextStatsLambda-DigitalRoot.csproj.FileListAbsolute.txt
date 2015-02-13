@@ -1,0 +1,16 @@
+C:\Users\dustin\Documents\GitHub\TextStatsLambda-DigitalRoot\TextStatsLambda-DigitalRoot\TextStatsLambda-DigitalRoot\bin\Debug\TextStatsLambda-DigitalRoot.exe.config
+C:\Users\dustin\Documents\GitHub\TextStatsLambda-DigitalRoot\TextStatsLambda-DigitalRoot\TextStatsLambda-DigitalRoot\bin\Debug\TextStatsLambda-DigitalRoot.exe
+C:\Users\dustin\Documents\GitHub\TextStatsLambda-DigitalRoot\TextStatsLambda-DigitalRoot\TextStatsLambda-DigitalRoot\bin\Debug\TextStatsLambda-DigitalRoot.pdb
+C:\Users\dustin\Documents\GitHub\TextStatsLambda-DigitalRoot\TextStatsLambda-DigitalRoot\TextStatsLambda-DigitalRoot\bin\Debug\nunit.framework.dll
+C:\Users\dustin\Documents\GitHub\TextStatsLambda-DigitalRoot\TextStatsLambda-DigitalRoot\TextStatsLambda-DigitalRoot\bin\Debug\nunit.framework.xml
+C:\Users\dustin\Documents\GitHub\TextStatsLambda-DigitalRoot\TextStatsLambda-DigitalRoot\TextStatsLambda-DigitalRoot\obj\Debug\TextStatsLambda-DigitalRoot.csprojResolveAssemblyReference.cache
+C:\Users\dustin\Documents\GitHub\TextStatsLambda-DigitalRoot\TextStatsLambda-DigitalRoot\TextStatsLambda-DigitalRoot\obj\Debug\TextStatsLambda-DigitalRoot.exe
+C:\Users\dustin\Documents\GitHub\TextStatsLambda-DigitalRoot\TextStatsLambda-DigitalRoot\TextStatsLambda-DigitalRoot\obj\Debug\TextStatsLambda-DigitalRoot.pdb
+C:\Users\Technologist\Documents\GitHub\Program6ClassSolutions\TextStatsLambda-DigitalRoot\TextStatsLambda-DigitalRoot\TextStatsLambda-DigitalRoot\bin\Debug\TextStatsLambda-DigitalRoot.exe.config
+C:\Users\Technologist\Documents\GitHub\Program6ClassSolutions\TextStatsLambda-DigitalRoot\TextStatsLambda-DigitalRoot\TextStatsLambda-DigitalRoot\obj\Debug\TextStatsLambda-DigitalRoot.exe
+C:\Users\Technologist\Documents\GitHub\Program6ClassSolutions\TextStatsLambda-DigitalRoot\TextStatsLambda-DigitalRoot\TextStatsLambda-DigitalRoot\obj\Debug\TextStatsLambda-DigitalRoot.pdb
+C:\Users\Technologist\Documents\GitHub\Program6ClassSolutions\TextStatsLambda-DigitalRoot\TextStatsLambda-DigitalRoot\TextStatsLambda-DigitalRoot\bin\Debug\TextStatsLambda-DigitalRoot.exe
+C:\Users\Technologist\Documents\GitHub\Program6ClassSolutions\TextStatsLambda-DigitalRoot\TextStatsLambda-DigitalRoot\TextStatsLambda-DigitalRoot\bin\Debug\TextStatsLambda-DigitalRoot.pdb
+C:\Users\Technologist\Documents\GitHub\Program6ClassSolutions\TextStatsLambda-DigitalRoot\TextStatsLambda-DigitalRoot\TextStatsLambda-DigitalRoot\bin\Debug\nunit.framework.dll
+C:\Users\Technologist\Documents\GitHub\Program6ClassSolutions\TextStatsLambda-DigitalRoot\TextStatsLambda-DigitalRoot\TextStatsLambda-DigitalRoot\bin\Debug\nunit.framework.xml
+C:\Users\Technologist\Documents\GitHub\Program6ClassSolutions\TextStatsLambda-DigitalRoot\TextStatsLambda-DigitalRoot\TextStatsLambda-DigitalRoot\obj\Debug\TextStatsLambda-DigitalRoot.csprojResolveAssemblyReference.cache

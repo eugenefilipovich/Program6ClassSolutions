@@ -1,0 +1,12 @@
+C:\Users\Technologist\Documents\GitHub\Program6ClassSolutions\DebuggingPractice\DebuggingPractice\DebuggingPractice\bin\Debug\DebuggingPractice.exe.config
+C:\Users\Technologist\Documents\GitHub\Program6ClassSolutions\DebuggingPractice\DebuggingPractice\DebuggingPractice\bin\Debug\DebuggingPractice.exe
+C:\Users\Technologist\Documents\GitHub\Program6ClassSolutions\DebuggingPractice\DebuggingPractice\DebuggingPractice\bin\Debug\DebuggingPractice.pdb
+C:\Users\Technologist\Documents\GitHub\Program6ClassSolutions\DebuggingPractice\DebuggingPractice\DebuggingPractice\bin\Debug\nunit.core.dll
+C:\Users\Technologist\Documents\GitHub\Program6ClassSolutions\DebuggingPractice\DebuggingPractice\DebuggingPractice\bin\Debug\nunit.core.interfaces.dll
+C:\Users\Technologist\Documents\GitHub\Program6ClassSolutions\DebuggingPractice\DebuggingPractice\DebuggingPractice\bin\Debug\nunit.framework.dll
+C:\Users\Technologist\Documents\GitHub\Program6ClassSolutions\DebuggingPractice\DebuggingPractice\DebuggingPractice\bin\Debug\nunit.util.dll
+C:\Users\Technologist\Documents\GitHub\Program6ClassSolutions\DebuggingPractice\DebuggingPractice\DebuggingPractice\bin\Debug\NUnit.VisualStudio.TestAdapter.dll
+C:\Users\Technologist\Documents\GitHub\Program6ClassSolutions\DebuggingPractice\DebuggingPractice\DebuggingPractice\bin\Debug\nunit.framework.xml
+C:\Users\Technologist\Documents\GitHub\Program6ClassSolutions\DebuggingPractice\DebuggingPractice\DebuggingPractice\obj\Debug\DebuggingPractice.csprojResolveAssemblyReference.cache
+C:\Users\Technologist\Documents\GitHub\Program6ClassSolutions\DebuggingPractice\DebuggingPractice\DebuggingPractice\obj\Debug\DebuggingPractice.exe
+C:\Users\Technologist\Documents\GitHub\Program6ClassSolutions\DebuggingPractice\DebuggingPractice\DebuggingPractice\obj\Debug\DebuggingPractice.pdb

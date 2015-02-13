@@ -1,0 +1,6 @@
+C:\Users\Technologist\Documents\GitHub\Program6ClassSolutions\DiceThrower1000\DiceThrower1000\bin\Debug\DiceThrower1000.exe.config
+C:\Users\Technologist\Documents\GitHub\Program6ClassSolutions\DiceThrower1000\DiceThrower1000\bin\Debug\DiceThrower1000.exe
+C:\Users\Technologist\Documents\GitHub\Program6ClassSolutions\DiceThrower1000\DiceThrower1000\bin\Debug\DiceThrower1000.pdb
+C:\Users\Technologist\Documents\GitHub\Program6ClassSolutions\DiceThrower1000\DiceThrower1000\obj\Debug\DiceThrower1000.csprojResolveAssemblyReference.cache
+C:\Users\Technologist\Documents\GitHub\Program6ClassSolutions\DiceThrower1000\DiceThrower1000\obj\Debug\DiceThrower1000.exe
+C:\Users\Technologist\Documents\GitHub\Program6ClassSolutions\DiceThrower1000\DiceThrower1000\obj\Debug\DiceThrower1000.pdb
