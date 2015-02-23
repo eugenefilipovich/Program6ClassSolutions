@@ -1,0 +1,6 @@
+C:\Users\Technologist\Documents\GitHub\Program6ClassSolutions\Inheritance\Inheritance\bin\Debug\Inheritance.exe.config
+C:\Users\Technologist\Documents\GitHub\Program6ClassSolutions\Inheritance\Inheritance\bin\Debug\Inheritance.exe
+C:\Users\Technologist\Documents\GitHub\Program6ClassSolutions\Inheritance\Inheritance\bin\Debug\Inheritance.pdb
+C:\Users\Technologist\Documents\GitHub\Program6ClassSolutions\Inheritance\Inheritance\obj\Debug\Inheritance.csprojResolveAssemblyReference.cache
+C:\Users\Technologist\Documents\GitHub\Program6ClassSolutions\Inheritance\Inheritance\obj\Debug\Inheritance.exe
+C:\Users\Technologist\Documents\GitHub\Program6ClassSolutions\Inheritance\Inheritance\obj\Debug\Inheritance.pdb
