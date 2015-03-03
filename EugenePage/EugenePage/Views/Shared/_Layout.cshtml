@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Sergey Pozhilov (GetTemplate.com)">
+
+    <title>Home of Eugene Filipovich</title>
+
+    <link rel="shortcut icon" href="~/Content/images/gt_favicon.png">
+
+
+    <!-- Bootstrap itself -->
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <!-- Custom styles -->
+    <link href="~/Content/magister.css" rel="stylesheet" />
+    <!-- Fonts -->
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Wire+One' rel='stylesheet' type='text/css'>
+</head>
+
+<!-- use "theme-invert" class on bright backgrounds, also try "text-shadows" class -->
+<body class="theme-invert">
+
+    <nav class="mainmenu">
+        <div class="container">
+            <div class="dropdown">
+                <button type="button" class="navbar-toggle" data-toggle="dropdown"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                <!-- <a data-toggle="dropdown" href="#">Dropdown trigger</a> -->
+                <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+                    <li><a href="#head" class="active">Hello</a></li>
+                    <li><a href="#about">About me</a></li>
+                    <li><a href="#themes">Work samples</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    @RenderBody()
+    <!-- Load js libs only when the page is loaded. -->
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/Scripts/modernizr.custom.72241.js"></script>
+    <!-- Custom template scripts -->
+    <script src="~/Scripts/magister.js"></script>
+</body>
+</html>

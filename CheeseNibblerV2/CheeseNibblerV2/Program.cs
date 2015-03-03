@@ -289,7 +289,7 @@ namespace CheeseNibbler
             {
                 // Get a Point to check
                 cat.Position = Grid[rng.Next(0, 10), rng.Next(0, 10)];
-                // condition to be met, must be an Empty point to place the Cat
+                // Condition to be met, must be an Empty point to place the Cat
             } while (cat.Position.Status != Point.PointStatus.Empty);
             // Set reference to Cat
             cat.Position.Status = Point.PointStatus.Cat;
