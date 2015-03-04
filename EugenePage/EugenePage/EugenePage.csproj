@@ -179,12 +179,15 @@
     <Content Include="Content\images\body4.jpg" />
     <Content Include="Content\images\body5.JPG" />
     <Content Include="Content\images\CheeseNibbler.png" />
+    <Content Include="Content\images\CombatSimulator.png" />
     <Content Include="Content\images\combine_images1.jpg" />
     <Content Include="Content\images\combine_images2.jpg" />
     <Content Include="Content\images\combine_images3.jpg" />
     <Content Include="Content\images\combine_images4.jpg" />
     <Content Include="Content\images\cutmypic.png" />
     <Content Include="Content\images\gt_favicon.png" />
+    <Content Include="Content\images\Hangman.png" />
+    <Content Include="Content\images\MorseEnglish.png" />
     <Content Include="Content\magister.css" />
     <Content Include="Content\screenshots\sshot1.jpg" />
     <Content Include="Content\screenshots\sshot2.jpg" />
