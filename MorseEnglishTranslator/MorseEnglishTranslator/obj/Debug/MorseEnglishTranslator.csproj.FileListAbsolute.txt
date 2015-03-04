@@ -1,0 +1,5 @@
+C:\Users\Technologist\Documents\GitHub\Program6ClassSolutions\MorseEnglishTranslator\MorseEnglishTranslator\bin\Debug\MorseEnglishTranslator.exe.config
+C:\Users\Technologist\Documents\GitHub\Program6ClassSolutions\MorseEnglishTranslator\MorseEnglishTranslator\bin\Debug\MorseEnglishTranslator.exe
+C:\Users\Technologist\Documents\GitHub\Program6ClassSolutions\MorseEnglishTranslator\MorseEnglishTranslator\bin\Debug\MorseEnglishTranslator.pdb
+C:\Users\Technologist\Documents\GitHub\Program6ClassSolutions\MorseEnglishTranslator\MorseEnglishTranslator\obj\Debug\MorseEnglishTranslator.exe
+C:\Users\Technologist\Documents\GitHub\Program6ClassSolutions\MorseEnglishTranslator\MorseEnglishTranslator\obj\Debug\MorseEnglishTranslator.pdb

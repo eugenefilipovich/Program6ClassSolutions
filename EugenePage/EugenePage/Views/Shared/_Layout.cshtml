@@ -1,17 +1,14 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="Sergey Pozhilov (GetTemplate.com)">
-
+    <meta name="description" content="Eugene Filipovich portfolio">
+    <meta name="author" content="Eugene Filipovich">
     <title>Home of Eugene Filipovich</title>
-
     <link rel="shortcut icon" href="~/Content/images/gt_favicon.png">
-
-
-    <!-- Bootstrap itself -->
+    <!-- Bootstrap-->
     <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
     <!-- Custom styles -->
     <link href="~/Content/magister.css" rel="stylesheet" />
@@ -22,16 +19,15 @@
 
 <!-- use "theme-invert" class on bright backgrounds, also try "text-shadows" class -->
 <body class="theme-invert">
-
     <nav class="mainmenu">
         <div class="container">
             <div class="dropdown">
-                <button type="button" class="navbar-toggle" data-toggle="dropdown"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-                <!-- <a data-toggle="dropdown" href="#">Dropdown trigger</a> -->
+                <button type="button" class="navbar-toggle" data-toggle="dropdown"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button>
+                <!--<a data-toggle="dropdown" href="#">Dropdown trigger</a> -->
                 <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
-                    <li><a href="#head" class="active">Hello</a></li>
+                    <li><a href="#head" class="active">Home</a></li>
                     <li><a href="#about">About me</a></li>
-                    <li><a href="#themes">Work samples</a></li>
+                    <li><a href="#works">Work samples</a></li>
                     <li><a href="#resume">Resume</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
@@ -40,6 +36,7 @@
     </nav>
 
     @RenderBody()
+
     <!-- Load js libs only when the page is loaded. -->
     <script src="~/Scripts/jquery-1.10.2.min.js"></script>
     <script src="~/Scripts/bootstrap.min.js"></script>
