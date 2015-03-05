@@ -34,7 +34,7 @@ body {
 	position:relative;
 	float:left;
 	display:block;
-	padding: 9px 10px;
+	padding: 10px 10px;
 	background: rgba(255, 255, 255, 0.2);
 	background-image: none;
 	border: 0 none;
@@ -67,9 +67,9 @@ body {
 }
 
 .mainmenu .dropdown-menu {
-	top: -14em;
+	top: -19em;
 	left: 0px;
-	font-size: 13px;
+	font-size: 12px;
 	padding:0;
 	background:none;
 	border:0 none;
@@ -222,6 +222,14 @@ a:hover, a:active {
 
 .caption h3 {
     text-align: center;
+}
+
+.caption h4 {
+    text-align: center;
+}
+
+#works .thumbnail img {
+max-height: 160px;
 }
 
 @media (max-width: 767px) {

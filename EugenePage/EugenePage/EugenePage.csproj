@@ -171,6 +171,8 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\American Flag - V2\af.html" />
+    <Content Include="Content\American Flag - V2\style_af.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\images\body1.jpg" />
@@ -185,9 +187,11 @@
     <Content Include="Content\images\combine_images3.jpg" />
     <Content Include="Content\images\combine_images4.jpg" />
     <Content Include="Content\images\cutmypic.png" />
+    <Content Include="Content\images\flag.png" />
     <Content Include="Content\images\gt_favicon.png" />
     <Content Include="Content\images\Hangman.png" />
     <Content Include="Content\images\MorseEnglish.png" />
+    <Content Include="Content\images\Volvoparts.png" />
     <Content Include="Content\magister.css" />
     <Content Include="Content\screenshots\sshot1.jpg" />
     <Content Include="Content\screenshots\sshot2.jpg" />
@@ -203,6 +207,8 @@
     <Content Include="Content\images\Thumbs.db" />
     <Content Include="Content\screenshots\Thumbs.db" />
     <Content Include="Content\images\Eugene Filipovich Resume.pdf" />
+    <Content Include="Content\American Flag - V2\doom3.ogg" />
+    <Content Include="Content\American Flag - V2\Thumbs.db" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
