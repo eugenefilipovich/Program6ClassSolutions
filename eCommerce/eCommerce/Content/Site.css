@@ -1,0 +1,76 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+
+
+/* PRODUCT LISTING CSS START */
+
+
+.product-listing img {
+    height:200px;
+}
+
+.product-listing div.name {
+    padding: 7px 0 0 0;
+    height:50px;
+}
+.product-listing div.price {
+    height:25px;
+    color:#ff0000;
+    font-weight:bold;
+}
+
+.product-listing-link, .product-listing-link:hover {
+    text-decoration:none;
+    color:#000000;
+}
+
+/* PRODUCT LISTING CSS END */
+
+
+/* PRODUCT DETAILS CSS START */
+.product-details .price{
+    color:#ff0000;
+    font-weight:bold;
+}
+.product-images .main-image 
+{
+    width:100%;
+}
+.product-images .thumbnails {
+    
+}
+.product-images .thumbnail {
+    width:75px;
+    height:75px;
+    display:inline-block;
+}
+.product-images .thumbnail img{
+    width:100%;
+    /*padding-top:15%*/
+}
+
+/* PRODUCT DETAILS CSS END */
+

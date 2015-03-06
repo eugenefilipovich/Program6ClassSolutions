@@ -1,0 +1,41 @@
+﻿@model eCommerce.Models.Product
+@*dont forget to declare the view's model on the first line!*@
+@{
+    ViewBag.Title = Model.Name;
+}
+
+<div class="row">
+    <div class="col-md-8 product-details">
+        <h2>@Model.Name</h2>
+        <p>
+            @Model.Description
+        </p>
+        <p>
+            MSRP: <s>@Model.MSRP.ToString("C")</s>
+            <br/>
+            Our Price: <span class="price">@Model.UnitPrice.ToString("C")</span>
+            
+            @*if our price is less than the msrp price, display the following*@
+            @if(Model.UnitPrice < Model.MSRP)
+                <div>You save <span class="price">@Math.Round(((1 - (Model.UnitPrice/Model.MSRP))*100), 2)%</span></div>
+            
+        </p>
+    </div>
+    <div class="col-md-4 product-images">
+        <img class="img-rounded main-image" src="@Model.ProductImages.First().imageURL" />
+        <div class="thumbnails text-center">
+            @*for each product image for the product....*@
+            @foreach(var image in Model.ProductImages)
+            { 
+                <div class="thumbnail">
+                    <img src="@image.imageURL" />
+                </div>
+            }
+        </div>
+    </div>
+</div>
+<div>
+    @*link to go back to the main products list*@
+    <a href="@Url.Action("Index", "Products")" class=" btn btn-default">Back to Products</a>
+</div>
+

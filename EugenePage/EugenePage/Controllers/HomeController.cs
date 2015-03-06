@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using System.Net.Mail;
 
 namespace EugenePage.Controllers
 {
@@ -12,18 +13,19 @@ namespace EugenePage.Controllers
         {
             return View();
         }
-
-        public ActionResult About()
+        [HttpPost]
+        public ActionResult Index(string Name, string Email, string Message)
         {
-            ViewBag.Message = "Your application description page.";
+            var message = new MailMessage("eugeneportfoliorobot@seedpaths.com", "eugenefilipovich1@gmail.com");
+            var client = new SmtpClient("mail.dustinkraft.com", 587)
+            {
+                Credentials = new System.Net.NetworkCredential("postmaster@dustinkraft.com", "techIsFun1")
+            };
+            message.Body = Name + " tried to contact you. Their email is " + Email + ". The message they left was: \"" + Message + "\"";
+            message.Subject = "Someone wants to contact you!";
+            client.Send(message);
 
-            return View();
-        }
-
-        public ActionResult Contact()
-        {
-            ViewBag.Message = "Your contact page.";
-
+            ViewBag.Message = "Your information has been submitted successfully! I will contact you soon! Want to add something? No problem!";
             return View();
         }
     }

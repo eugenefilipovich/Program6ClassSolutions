@@ -1,0 +1,30 @@
+﻿@model IEnumerable<eCommerce.Models.Product>
+@*on the first line we declare our view's model, this is the object that dictates the type of the "Model" property, and is primarily how we pass data from the controller to the view*@
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Our Products</h2>
+
+<div class="row">
+    @*foreach product in the list of product (Model), display this block... *@
+    @foreach(eCommerce.Models.Product product in Model)
+    { 
+    <div class="col-md-4 text-center product-listing">
+           @*link to go to the product detail page for this particular product.  We have this because the user should be able to click on the image, product name or price to go see more information, they should not HAVE to click the button*@
+           <a href="@Url.Action("Details", "Products", new {id = product.ProductID})" class="product-listing-link">
+               @*display the image src for the first product image in the database*@
+               <img class="img-thumbnail" src="@product.ProductImages.First().imageURL" />
+               <div class="name">
+                   <strong>@product.Name</strong>
+               </div>
+               <div class="price">
+                   @product.UnitPrice.ToString("C")
+               </div>
+           </a>
+           @*link to go to the product detail page for this particular product*@
+        <a href="@Url.Action("Details", "Products", new {id = product.ProductID})" class="btn btn-default">More Info</a>
+         
+       </div>
+    }
+</div>
