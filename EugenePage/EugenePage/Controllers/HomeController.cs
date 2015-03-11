@@ -25,7 +25,7 @@ namespace EugenePage.Controllers
             message.Subject = "Someone wants to contact you!";
             client.Send(message);
 
-            ViewBag.Message = "Your information has been submitted successfully! I will contact you soon! Want to add something? No problem!";
+            ViewBag.Message = "Your information has been submitted successfully! I will contact you soon!";
             return View();
         }
     }

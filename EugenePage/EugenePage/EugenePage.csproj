@@ -175,11 +175,7 @@
     <Content Include="Content\American Flag - V2\style_af.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
-    <Content Include="Content\images\body1.jpg" />
-    <Content Include="Content\images\body2.jpg" />
-    <Content Include="Content\images\body3.jpg" />
     <Content Include="Content\images\body4.jpg" />
-    <Content Include="Content\images\body5.JPG" />
     <Content Include="Content\images\CheeseNibbler.png" />
     <Content Include="Content\images\CombatSimulator.png" />
     <Content Include="Content\images\combine_images1.jpg" />
@@ -191,6 +187,7 @@
     <Content Include="Content\images\gt_favicon.png" />
     <Content Include="Content\images\Hangman.png" />
     <Content Include="Content\images\MorseEnglish.png" />
+    <Content Include="Content\images\TotalAnamnesis.png" />
     <Content Include="Content\images\Volvoparts.png" />
     <Content Include="Content\magister.css" />
     <Content Include="Content\screenshots\sshot1.jpg" />

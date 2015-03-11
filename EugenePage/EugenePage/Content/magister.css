@@ -146,7 +146,7 @@ a:hover, a:active {
 
 .lead { 
 	font-weight:normal;
-	font-size:1.5em;
+	font-size:1.8em;
 	line-height:1.2em;
 }
 
@@ -193,10 +193,18 @@ a:hover, a:active {
 #about-me {
     margin-left: auto;
     margin-right: auto;
-    max-width:900px;
+    max-width:740px;
     text-indent: 40px;
     font-size:1.2em;
     text-shadow:0 2px 3px rgba(0,0,0,.4);
+    text-align:justify;
+    text-justify:distribute;
+    margin-bottom:35px;
+}
+
+#message {
+    margin-top:160px;
+    font-size: 1.7em;
 }
 
 #photo {
