@@ -1,0 +1,10 @@
+﻿
+@{
+    ViewBag.Title = "FlickrFlack";
+}
+
+<h2>FlickrFlack</h2>
+@using (Html.BeginForm("MapSearch", "Home", FormMethod.Post))
+{
+    <input class="form-control" type="search" name="searchTerm" placeholder="Search for a location" style="width:15em;" />
+}

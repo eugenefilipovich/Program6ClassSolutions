@@ -1,0 +1,29 @@
+﻿@model FlickrNet.PhotoCollection
+@{
+    ViewBag.Title = "MapSearch";
+    int iconCounter = 0;
+}
+
+<div id="map" style="width: 800px; height: 600px"></div>
+<script>
+    $(document).ready ( function() {
+        var map = L.map('map').setView([@ViewBag.CenterCoord.Split(',')[0], @ViewBag.CenterCoord.Split(',')[1]], 13);
+        L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+        @foreach (var item in Model)
+        {
+            string iconName = "myIcon"+iconCounter;
+            <text>
+            //print each javascript marker
+            var </text>@iconName<text> = L.icon({
+                iconUrl: '@item.ThumbnailUrl',
+                iconSize: [@item.ThumbnailHeight, @item.ThumbnailWidth],
+            });
+
+            L.marker([@item.Latitude, @item.Longitude], {icon: </text>@iconName<text>}).addTo(map);</text>
+            iconCounter++;
+        }
+    });
+</script>
+
