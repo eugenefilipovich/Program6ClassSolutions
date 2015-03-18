@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html ng-app="TabsAndCarousel">
+  <head>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.27/angular.min.js"></script>
+	
+	<script>
+
+	  var app = angular.module('TabsAndCarousel', []);
+
+	  app.controller('TabController', function(){
+		this.tab = 1;
+		 this.setTab = function(newValue){
+		  //set the tab value to the newValue
+		  this.tab = newValue;
+		};
+
+		this.isSet = function(tabName){
+		  //return if the tab parameter matches the current tab.
+			return this.tab === tabName;
+		};
+	  });
+	  
+	  app.controller('CarouselController', function() {
+			this.current = 0;
+			this.getNext = function() { this.current+=1;
+			if (this.current === imageArray.length) { 
+			this.current = 0;};};
+			
+			this.getPrev = function() { 
+			this.current-=1;
+			if (this.current < 0) 
+			{ this.current = 4;};};
+			
+			this.images = imageArray;
+		});
+		
+		var imageArray = [
+			{
+				name:'Angular',
+				url: 'angular.jpg'
+			},
+			{
+				name: 'jQuery',
+				url: 'jquery.png'
+			},
+			{
+				name: 'JavaScript',
+				url: 'js.png',
+			},
+			{
+				name: 'HTML5',
+				url: 'html.png'
+			},
+			{
+				name: 'CSS3',
+				url: 'css.png'
+			}
+		];
+		
+	  
+	
+	</script>
+
+	
+  </head>
+
+  <body >
+    <div class="container">
+		<section ng-controller="TabController as tab">
+			<h1>Tabs</h1>
+			
+			<button type="button" class="btn btn-default" ng-click="tab.setTab(1)" ng-class="{ active: tab.isSet(1)}">Lorem Ipsum</button>
+			
+			<button type="button" class="btn btn-default" ng-click="tab.setTab(2)" ng-class="{ active: tab.isSet(2)}">Bacon Ipsum</button>
+			
+			<button type="button" class="btn btn-default" ng-click="tab.setTab(3)" ng-class="{ active: tab.isSet(3)}">Cat Ipsum</button>
+			
+			<button type="button" class="btn btn-default" ng-click="tab.setTab(4)" ng-class="{ active: tab.isSet(4)}">Carousel Instructions</button>
+			
+			<div class="panel" ng-show="tab.isSet(1)">
+				<h3>Lorem Ipsum</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque pulvinar elit at leo malesuada hendrerit. Maecenas orci est, suscipit ut ultrices nec, sodales in mauris. Etiam faucibus faucibus dolor, a mattis arcu pretium et. Sed vel sagittis elit. Etiam ut elit vel velit dictum sagittis a id massa. Quisque feugiat faucibus elit id hendrerit. Donec iaculis sapien a vehicula ultrices. Sed id nisi nec odio tristique posuere eu nec mi. Proin at massa vitae eros ultrices ornare et eget mi. Maecenas condimentum elit mi, sed cursus ex rutrum aliquet. Duis dignissim ligula at erat faucibus volutpat. Nulla mauris nisl, posuere eu facilisis non, lobortis ornare eros. Proin quis nisl orci.
+				</p>
+			</div>
+			
+			<div class="panel" ng-show="tab.isSet(2)">
+				<h3>Bacon Ipsum</h3>
+				<p>Bacon ipsum dolor amet drumstick doner consectetur pork ea, voluptate turkey strip steak hamburger velit adipisicing tempor aute ham hock. Culpa venison cow sed, corned beef sausage shankle non velit labore ham. Velit ipsum eu swine in alcatra consequat pork chop laboris strip steak sirloin sed salami cillum. Officia ex sausage pancetta porchetta pork loin ribeye corned beef adipisicing boudin frankfurter eiusmod. Ea id bacon eiusmod tenderloin tempor mollit t-bone nulla in ipsum consequat sint nostrud. Beef flank porchetta fugiat, pastrami bresaola sint bacon occaecat consectetur dolore et duis. Pastrami meatloaf in ea, pork rump chicken ball tip tenderloin fugiat meatball.</p>
+			</div>
+			
+			<div class="panel" ng-show="tab.isSet(3)">
+				<h3>Cat Ipsum</h3>
+				<p>Destroy couch hack up furballs and lick arm hair but love to play with owner's hair tie meow all night having their mate disturbing sleeping humans. Missing until dinner time. Chase laser make muffins, but rub face on everything hopped up on catnip. Sleep nap use lap as chair, for need to chase tail swat at dog, and hate dog, and sit by the fire. Intently sniff hand. Has closed eyes but still sees you purr while eating. Attack feet climb leg under the bed, and use lap as chair. Nap all day claw drapes spread kitty litter all over house and purr while eating so eat grass, throw it back up. Loves cheeseburgers roll on the floor purring your whiskers off or chase ball of string throwup on your pillow present belly, scratch hand when stroked and purr while eating. Ears back wide eyed. Sun bathe find something else more interesting present belly, scratch hand when stroked inspect anything brought into the house present belly, scratch hand when stroked but leave fur on owners clothes climb leg. Why must they do that. </p>
+			</div>
+			<div class="panel" ng-show="tab.isSet(4)">
+				<h3>Carousel Instructions</h3>
+				<p>The purpose of the carousel is to rotate images by pressing a button.  To do this you'll need to:</p>
+				<ul>
+					<li>Use Angular's two way data-binding to display a current image</li>
+					<li>Bind an ng-click event to the next/previous buttons</li>
+					<li>In the function for the click next event:
+						<ul>
+							<li>Increase the current value by 1.  If its greater or equal to the length of the image array, set it to 0.</li>
+							<li>Angular does the rest!</li>
+							<li>Do the opposite for the Previous function</li>
+						</ul>
+					</li>
+				</ul>
+					
+					
+			</div>
+		</section>
+		
+		<section class="carouselImgs" ng-controller="CarouselController as carousel">
+			<h1>Image Carousel</h1>
+			<div>
+				<img width="75" height="75" ng-src="{{carousel.images[carousel.current].url}}"/>
+			</div>
+			<p>
+				<button type="button" class="btn btn-default" ng-click="carousel.getPrev()">Previous</button>
+				<button type="button" class="btn btn-default" ng-click="carousel.getNext()">Next</button>
+			</p>
+		</section>
+   
+	</div>
+  </body>
+</html>

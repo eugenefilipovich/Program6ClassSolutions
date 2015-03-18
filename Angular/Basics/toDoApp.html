@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html ng-app="ToDoApp">
+  <head>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
+	<style>
+		.ng-dirty.ng-invalid { border-color:red;}
+		.ng-dirty.ng-valid {border-color: green;}
+		.strike {text-decoration: line-through;}
+	</style>
+	
+	<script>
+		<!-- Angular code goes here -->
+		var app = angular.module('ToDoApp', []);
+		app.controller('ToDoController', function() {
+		this.toDoList = [];
+		this.toDoItem = {};
+		this.addToDo = function() {
+			// set the new todo item to not done
+			this.toDoItem.done = false;
+			// add it to the list
+			this.toDoList.push(this.toDoItem);
+			// clear the form after adding
+			this.toDoItem = {};
+		};
+		});
+	</script>
+  </head>
+
+  <body ng-controller="ToDoController as todoCtrl">
+    <div class="container">
+		<h2>To Do List</h2>
+		<ul class="list-unstyled">
+			<li ng-repeat="toDoItem in todoCtrl.toDoList">
+			<input type="checkbox" ng-model="toDoItem.done"/>
+			<span ng-class="{strike : toDoItem.done}">{{ toDoItem.name }}</span>
+		</ul>
+		
+		<form name="todoForm" ng-submit="todoForm.$valid && todoCtrl.addToDo()" novalidate>
+			<input type="text" placeholder="Add ToDo.." ng-model="todoCtrl.toDoItem.name" required/>
+			<input type="submit" value="Save"/>
+		</form>
+	</div>
+  </body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html ng-app="HelloWorld">
+  <head>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
+	
+	<script>
+		<!-- Angular code goes here -->
+		var app = angular.module('HelloWorld', []);
+		<!-- create a controller -->
+		app.controller('AboutController', function () {
+			this.name = "Eugene Filipovich";
+			this.age = 32;
+			this.skills = ['coding','hiking','being rad'];
+			// property to toggle showing skills section
+			this.showSkills = true;
+			// declare some functions
+			this.getOlder = function() {
+				this.age++; // increment age by 1
+			};
+			this.toggleSkills = function() {
+				this.showSkills = !this.showSkills;
+			};
+		});
+	</script>
+  </head>
+
+  <body ng-controller="AboutController as aboutCtrl">
+    <div class="container">
+		<h1>{{ aboutCtrl.name }}</h1>
+		<p>
+			My age is {{ aboutCtrl.age }}. Next year I will be {{ aboutCtrl.age + 1 }} years awesome.
+		</p>
+		<!-- ng-click is how we raise a click event -->
+		<button class="btn" ng-click="aboutCtrl.toggleSkills()">
+			Toggle Skills
+		</button>
+		<!-- ng-show accepts a condition that tells the browser if it should show the content or hide it -->
+		<ul ng-show="aboutCtrl.showSkills">
+			<!-- ng-repeat is used to repeat html code for each item in an array -->
+			<li ng-repeat="skill in aboutCtrl.skills">
+				{{ skill }}
+			</li>
+		</ul>
+		<div>
+			Two way data binding<br/>
+			<!-- ng-model is used to bind an html element to a data store -->
+			Name: <input type="text" ng-model="aboutCtrl.name"/>
+		</div>
+		
+		<div>
+			Calling functions
+			<button class="btn" ng-click="aboutCtrl.getOlder()">
+				Get Older
+			</button>
+		</div>
+   
+	</div>
+  </body>
+</html>
